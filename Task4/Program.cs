@@ -9,8 +9,7 @@ for (int i = 0; i < length; i++) // Заполним массив случайн
     array[i] = rnd.Next(-1000,1000);
     
 for (int j = 9; j < 99; j++)     // Посчитаем сумму в отрезке
-{
     sum =+ array[j];
-}
+
 
 Console.WriteLine($"Сумма элементов в отрезке 10 - 99 равна {sum}");

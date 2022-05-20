@@ -17,6 +17,4 @@ for (int j = 0; j < multLength; j++) // Умножим противополож�
 }
 
 foreach (var item in multArray) // Напечатаем доп массив
-{
     Console.Write(item + " ");
-}
